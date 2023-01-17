@@ -1,0 +1,128 @@
+/* START: Task 1 Styles */
+td{
+    border: 1px solid rgb(255, 1, 1);
+    padding: 10px;
+    
+}
+table{
+    width: 5%;
+}
+table:hover{
+    cursor: pointer;
+}
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+#message{
+    margin-top: 50px;
+    width: 350px;
+}
+
+#message {
+    display: none;
+    border: 1px solid black;
+    padding: 0 15px;
+    color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+#phone-validation {
+    margin-top: 15px;
+}
+
+#phone-input {
+    width: 295px;
+    height: 40px;
+    padding: 0 15px
+}
+
+#send-valid-phone {
+    width: 50px;
+    height: 40px;
+}
+
+.green {
+    background-color: green;
+}
+
+.red-border {
+    border: 2px solid red;
+}
+
+input {
+    outline: none;
+}
+
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+#court {
+    width: 600px;
+    height: 330px;
+}
+
+#task3 {
+    position: relative;
+    width: 600px;
+    height: 330px;
+}
+
+#ball {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+#left-hoop, #right-hoop {
+    position: absolute;
+    z-index: 100;
+    width: 15px;
+    height: 15px;
+}
+
+#left-hoop {
+    top: 50%;
+    transform: translate(0,-50%);
+    left: 35px;
+}
+
+#right-hoop {
+    top: 50%;
+    transform: translate(0,-50%);
+    right: 35px;
+}
+
+#score-right, #score-left, #notification {
+    position: absolute;
+}
+
+#score-left {
+    left: 5px;
+}
+
+#score-right {
+    right: 5px;
+}
+
+#notification {
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/* END: Task 3 Styles */

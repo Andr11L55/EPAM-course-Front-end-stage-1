@@ -1,0 +1,199 @@
+body {
+  background: #151722; }
+
+main {
+  margin: 0 auto;
+  width: 960px; }
+
+.header {
+  background-image: url("/homework/img/m-h-night.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  border: 0; }
+
+.header-wrap {
+  margin-left: 190px; }
+
+header img {
+  margin-top: 20px;
+  float: left; }
+
+.landing-logo p {
+  text-transform: capitalize;
+  font-family: Hind, sans-serif;
+  font-weight: bold;
+  padding-left: 55px;
+  font-size: 18pt;
+  padding-top: 15px;
+  color: white; }
+
+.landing-logo span {
+  text-transform: none;
+  font-weight: normal;
+  display: block;
+  font-size: 8pt;
+  padding-left: 10px; }
+
+.header_heading {
+  margin-top: 50px;
+  font-family: Hind, sans-serif;
+  font-weight: bolder;
+  font-size: 24pt;
+  width: 300px;
+  color: white; }
+
+.header_heading span, .section_text span, .section_banner_heading span {
+  background: #df5211; }
+
+.header_text {
+  font-size: 12pt;
+  color: whitesmoke;
+  font-family: Fresca, sans-serif;
+  width: 700px;
+  display: block;
+  white-space: pre; }
+
+.header_button {
+  background: #f7c00f;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  display: inline-block; }
+
+.login {
+  color: white;
+  font-weight: lighter;
+  margin-left: 150px; }
+
+.section_text {
+  text-align: center;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 24pt;
+  color: white; }
+
+.section_card {
+  background-color: #364157;
+  color: rgba(255, 255, 255, 0.87);
+  display: block;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 3px; }
+
+.section_card_img {
+  float: left;
+  width: 400px;
+  height: 200px;
+  border-radius: 2px; }
+
+.section_card_heading {
+  text-align: center;
+  font-size: 16pt; }
+
+.section_card_text {
+  padding-left: 50px;
+  margin-right: 50px;
+  padding-top: 20px;
+  display: flex;
+  letter-spacing: 1px;
+  font-size: 12pt; }
+
+.section_link {
+  text-align: center;
+  display: flex;
+  padding-left: 230px;
+  color: whitesmoke;
+  padding-top: 10px; }
+
+.section_banner {
+  background: linear-gradient(90deg, #c5c20e 35%, #f50c0c 100%);
+  width: 1200px;
+  height: 150px;
+  display: block;
+  position: absolute;
+  right: 130px;
+  top: 1550px;
+  z-index: 10;
+  padding-left: 55px; }
+
+.section {
+  margin-bottom: 200px; }
+
+.section_banner_heading {
+  text-transform: capitalize;
+  font-family: Hind, sans-serif;
+  font-weight: bold;
+  padding-left: 55px;
+  font-size: 18pt;
+  padding-top: 15px;
+  color: white;
+  text-transform: none;
+  padding-left: 0px; }
+
+.section_banner_text_wrap {
+  width: 400px;
+  display: block; }
+
+.section_banner_text {
+  color: rgba(245, 245, 245, 0.733); }
+
+.section_banner_button {
+  background: #f7c00f;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 950px;
+  position: relative;
+  bottom: 80px; }
+
+.footer {
+  background: #364157;
+  margin-top: 100px;
+  z-index: -1;
+  display: block;
+  position: relative;
+  color: rgba(245, 245, 245, 0.733);
+  width: 100%; }
+
+.footer_logo {
+  padding-top: 100px;
+  padding-left: 50px;
+  display: inline-block; }
+
+.footer_logo img {
+  margin-top: 20px;
+  float: left;
+  padding-top: 20px; }
+
+.footer_logo p {
+  text-transform: capitalize;
+  font-family: Hind, sans-serif;
+  font-weight: bold;
+  padding-left: 55px;
+  font-size: 18pt;
+  padding-top: 15px;
+  color: white; }
+
+.footer_text {
+  font-size: 10pt;
+  display: inline-block;
+  padding-left: 400px;
+  width: 300px;
+  padding-top: 20px; }
+
+.footer-cr {
+  display: inline-block;
+  font-size: 9pt;
+  padding-left: 400px;
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=style2.css.map */

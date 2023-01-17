@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./external-service.js"></script>
+    <title>FE Lab 18</title>
+  </head>
+  <body>
+    <div id="app-root">
+      <main>
+        <article>
+          <h1>Countries Search
+          </h1>
+          <div class="sort-block">
+            <p>Please choose type of search:</p>
+            <div class="sort-parameters-type">
+              <div>
+                <input type="radio" id="sort-parameter-region" onclick="checkReg()" name="sort" value="region">
+                  <label for="sort-parameter-region">By Region</label>
+              </div>
+              <div>
+                <input type="radio" id="sort-parameter-language" onclick="checkReg()" name="sort" value="language">
+                  <label for="sort-parameter-language">By Language</label>
+              </div>
+            </div>
+          </div>
+          <div class="sort-block">
+            <p>Please choose search query:</p>
+            <form id="sort-parameters-query">
+              <select disabled id="regions-list" name="regions" onchange="checkSelectedValue(event)" onclick="sortTables(0)">
+                <option disabled selected>Select value</option>
+              </select>
+            </form>
+          </div>
+          <p id="no-items"></p>
+          <table id="countries-table">           
+          </table>
+        </article>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

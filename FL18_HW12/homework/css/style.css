@@ -1,0 +1,384 @@
+/*
+* Colors used in design.
+*   primary: #0078aa;
+*   dark: #363636;
+*   light: #fff;
+*/
+/* @media all and (min-width: 1280px) { */
+html{
+  scroll-behavior: smooth;
+}
+.primary{
+  color: #0078aa;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0%;
+}
+
+.logo{
+  margin-top: 10px;
+}
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  float: right;
+  list-style: none;
+  padding-right: 50px; 
+  
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  padding-top: 0;
+  color: #363636;
+}
+
+.navigation a:hover {
+  color: #0078aa;
+}
+
+.img{
+  max-width: 100%;
+  height: auto;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+.btn{
+  font-size: 24px;
+  border-radius: 100%;
+  background-color: #0078aa;
+  color: white;
+  border: 0;
+  padding: 5px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.btn:hover{
+  color: #0078aa;
+  background-color: white;
+  border: 1px solid #0078aa;
+  cursor: pointer;
+}
+.arrow{
+  float: right;
+  padding: 10px;
+  position: fixed;
+  right:0;
+  bottom:10px;
+  z-index: 10;
+}
+.header-med{
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+.header{
+  width: 40%;
+  margin-top: 150px;
+  position: absolute;
+}
+.header_img{
+  float: right;
+}
+.clinic{
+  display: flex;
+}
+.clinic-tools{
+  float: right;
+  margin-right: 100px;
+  padding-top: 50px;
+  margin-left: 20px;
+}
+.arrow-right{
+  margin-right: 10px;
+}
+.help{
+  background-image: url('/homework/img/services_bg.jpg');
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+.center{
+  text-align: center;
+}
+.help_cards{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-flow: row wrap;
+}
+.help_section{
+  background: white;
+  width: 25%; 
+  padding-left: 20px; 
+  padding-top: 20px;
+}
+.price{
+  background-image: url('/homework/img/pricing_bg.jpg');
+  /* background-position: no-repeat; */
+  background-size: cover;
+  background-position-y: -100px;
+  padding-bottom: 100px;
+}
+.prices{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px; 
+  margin-top: 50px;
+}
+.ft{
+  color: white;
+  background: #65bde2;
+  width: 30%;
+}
+.second{
+  color: #0078aa;
+  background: white;
+  width: 25%;
+  border: 1px  solid #0078aa;
+  position: relative;
+  bottom: 25px;
+  padding-top: 40px; 
+  
+}
+.price_section{
+  height: 450px;
+  padding-bottom: 90px;
+}
+.price_header{
+  margin-top: 50px;
+}
+.dolar{
+  font-weight: bold;
+  font-size: 32pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.price_text{
+  font-size: 12pt;
+}
+.price_desc{
+  font-size: 10pt;
+}
+.btn-price{
+  font-size: 14pt;
+  border-radius:10px;
+  background-color: white;
+  border: 2px solid #0078aa;
+  color: #0078aa;
+  padding: 10px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.btn-price:hover{
+  background-color: #0078aa;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+.medic_form{
+  float:right;
+  width: 100%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.meet{
+  display: flex;
+}
+.medic_img{
+  width: 55%;
+}
+.form input{
+  font-style: italic;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.btn-submit{
+  color:white;
+  background: #0078aa;
+  padding-top: 15px;
+}
+.btn-submit:hover{
+  color: #0078aa;
+  background: white;
+  border: 2px solid #0078aa;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  background: #363636;
+  color: white;
+}
+
+@media all and (max-width: 1280px) {
+  body{
+    font-size: 16pt;
+  }
+  .logo{
+    margin-top: 15px;
+  }
+  .menu{
+    margin-left: 10px;
+  }
+  .navigation {
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding: 0;
+  }
+  .navigation a { 
+    text-align: center; 
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+  .img{
+    max-width: 100%;
+    height: auto;
+  }
+  .header-med{
+    margin-left: 10px;
+  }
+  .header{
+    margin-top: 0%;
+    width: auto;
+  }
+  .header_text{
+    width: 50%;
+  }
+  .clinic_img{
+    height: 50%;
+    width: 50%;
+    padding-top: 200px;
+  }
+  .clinic-tools{
+    padding-top: 0%;
+  }
+  .price{
+    padding-bottom: 0px;
+  }
+  .medic_img{
+    object-position: -100px -100px;
+    width: 50%;
+    object-fit: none;
+  }
+  .form{
+    margin-bottom: 100px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  body{
+    font-size: 18pt;
+  }
+  .logo{
+    display: block;
+    margin-left: 45%;
+    margin-top: 10px;
+  }
+  .menu{
+    display: block;
+  }
+  .navigation{
+    float: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0px;
+  }
+  .header_img{
+    float: none;
+    object-position: 33% 40%;
+    object-fit: none;
+    width: 100%;
+  }
+  .header{
+    margin-top: 0;
+    display: block;
+    width: auto;
+  }
+  .header_title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .header_text{
+    text-align: center;
+    width: 95%;
+    margin: 0;
+    padding-left: 20px;
+  }
+  .buttons{
+    display: flex;
+    justify-content: space-around;
+  }
+  .header-med{
+    margin-bottom: 90px;
+  }
+ 
+  .clinic{
+    flex-flow: column;
+    justify-content: center;
+  }
+  .clinic_img{
+    width: 100%;
+    height: auto;
+    padding: 0%;
+  }
+  .title{
+    text-align: center;
+  }
+  .clinic-tools{
+    margin: 0%;
+  } 
+  .help{
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .help_cards{
+    flex-flow: column wrap;
+  }
+  .help_section{
+    width: 90%;
+    margin-left: 20px;
+  }
+  .price{
+    background: none;
+  }
+  .prices{
+    flex-flow: column;
+    margin-top: 0%;
+  }
+  .price_section{
+    width: auto;
+    margin: 10px;
+  }
+  .second{
+    bottom: 0;
+  }
+  .meet{
+    flex-flow: column;
+  }
+  .medic_img{
+    width: auto;
+    object-fit:fill;
+    object-position: 0%;
+  }
+  .medic_form{
+    width: auto;
+    margin-bottom: -10%;
+    text-align: center;
+  }
+}

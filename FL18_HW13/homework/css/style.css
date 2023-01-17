@@ -1,0 +1,34 @@
+/* Black: #111
+Grey: #525252
+white
+coral
+lightcoral
+Font-family: ‘Roboto’ */
+body{
+    font-family: 'Roboto';
+}
+.black{
+    background-color: #111;
+    color: white;
+}
+.btn-dark{
+    background: #525252;
+    color: white;
+}
+.btn-orange{
+    background: coral;
+    color: white;
+}
+.btn-orange:hover{
+    background: lightcoral;
+    color: lightcyan;
+}
+.cards1{
+    background: #525252;
+    color: white;
+    border: 0;
+}
+.cards2{
+    background: rgb(238, 238, 238);
+    border: 0;
+}

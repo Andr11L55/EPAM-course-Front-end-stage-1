@@ -1,0 +1,200 @@
+
+body {
+    background: $contentBackground;
+    }
+    main {
+    margin: 0 auto;
+    width: 960px;
+    }
+    .header{
+        background-image: $image;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-bottom: 100px;  
+        border: 0;
+    }
+    .header-wrap{
+        margin-left: 190px;
+    }
+    @mixin img {
+        margin-top: 20px;
+        float: left;
+    }
+    header img{
+        @include img;
+    }
+   @mixin logo{
+        text-transform : capitalize;
+        font-family: $font-family;
+        font-weight: bold;
+        padding-left:55px;
+        font-size: 18pt;
+        padding-top: 15px;
+        color: $colour;
+    }
+    .landing-logo p{
+        @include logo;
+    }
+    .landing-logo span{
+        text-transform: none;
+        font-weight: normal;
+        display: block;
+        font-size: 8pt;
+        padding-left: 10px;
+    }
+    .header_heading{
+        margin-top: 50px;
+        font-family: $font-family;
+        font-weight: bolder;
+        font-size: 24pt;
+        width: 300px;
+        color: $colour;
+    }
+    %span{
+        background: $back-span;
+    }
+    .header_heading span{
+        @extend %span;
+    }
+    .header_text{
+        font-size: 12pt;
+        color: $black-white;
+        font-family: $font-family1;
+        width: 700px;
+        display: block;
+        white-space:pre;
+    }
+    @mixin button {
+        background: $background-button;
+        color: white;
+        border-radius: 5px;
+        border: 0;
+        width:  120px;
+        height: 40px;
+        text-align: center;
+        display: inline-block;
+    }
+    .header_button{
+       @include button;
+    }
+    .login{
+        color:white;
+        font-weight: lighter;
+        margin-left: 150px;
+    }
+    .section_text{
+        text-align: center;
+        font-family: $font-family2;
+        font-size: 24pt;
+        @debug map-get($font-weights, "bold");
+        color: $colour;
+    }
+    .section_text span {
+        @extend %span;
+    }
+    .section_card{
+        background-color: $theme-dark;
+        color: rgba(255, 255, 255, 0.87);
+        display: block;
+        padding-top: 20px;
+        padding-left: 20px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 3px;
+    }
+    .section_card_img{
+        float: left;
+        width: 400px;
+        height: 200px;
+        border-radius: 2px;
+    }
+    .section_card_heading{
+        @debug map-get($font-weights, "bold");
+        text-align: center;
+        font-size: 16pt;
+    }
+    .section_card_text{
+        padding-left: 50px;
+        margin-right: 50px;
+        padding-top: 20px;
+        display: flex;
+        letter-spacing: 1px;
+        font-size: 12pt;
+    }
+    .section_link{
+        text-align: center;
+        display: flex;
+        padding-left: 230px;
+        color: whitesmoke;
+        padding-top: 10px;
+    }
+    .section_banner{
+        background: $backgr-ready;
+        width: 1200px;
+        height: 150px;
+        display: block;
+        position: absolute;
+        right:130px;
+        top:1550px;
+        z-index: 10;
+        padding-left: 55px;
+        
+    }
+    .section{
+        margin-bottom: 200px;
+    }
+    .section_banner_heading{
+        @include logo;
+        text-transform: none;
+        padding-left: 0px;
+    }
+    .section_banner_text_wrap{
+        width: 400px;
+        display: block;
+    }
+    .section_banner_heading span{
+        @extend %span;
+    }
+    .section_banner_text{
+        color: $whiteSmoke;
+    }
+    .section_banner_button{
+        @include button;
+        margin-left: 950px;
+        position: relative;
+        bottom: 80px;
+    }
+    .footer{
+        background: $theme-dark;
+        margin-top: 100px;
+        z-index: -1;
+        display: block;
+        position: relative;
+        color: $whiteSmoke;
+        width: 100%;
+    }
+    .footer_logo{
+        padding-top: 100px;
+        padding-left: 50px;
+        display: inline-block;
+    }
+    .footer_logo img{
+        @include img;
+        padding-top:  20px;
+    }
+    .footer_logo p{
+        @include logo;
+    }
+    .footer_text{
+        font-size: 10pt;
+        display: inline-block;
+        padding-left: 400px;
+        width: 300px;
+        padding-top: 20px;
+    }
+    .footer-cr{
+        display: inline-block;
+        font-size: 9pt;
+        padding-left: 400px;
+        margin-bottom: 20px;
+    }
